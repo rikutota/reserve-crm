@@ -49,12 +49,11 @@ Reserve CRM では、以下の方針で開発を進める。
 ### 例
 
 ```text
-feature/BL-001-login
-feature/BL-011-create-customer
-feature/BL-016-create-reservation
-fix/BL-022-reservation-overlap-check
-docs/SP0-012-development-rule
-chore/setup-github-actions
+feat: ログイン画面を追加
+fix: Prisma 7の設定方式に対応
+docs: Sprint 0の成果物を追加
+chore: Docker ComposeでPostgreSQLを起動できるようにする
+test: 予約重複判定のテストを追加
 ```
 
 ---
